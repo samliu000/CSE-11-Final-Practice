@@ -15,7 +15,12 @@ public class CSE11FinalPractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Foo foo = new Foo();
+        Foo bar = new Bar();
+        System.out.println(foo.add(1,2));
+        System.out.println(foo.add(1.0,2));
+        System.out.println(bar.add(1,2));
+        System.out.println(bar.add(1, 2.0));
     }
     
 }
