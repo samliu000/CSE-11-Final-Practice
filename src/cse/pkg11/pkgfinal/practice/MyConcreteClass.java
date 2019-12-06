@@ -9,6 +9,12 @@ package cse.pkg11.pkgfinal.practice;
  *
  * @author boo13
  */
-public class MyConcreteClass {
-    
+public class MyConcreteClass extends MyAbstractClass{
+    public void methodB(){
+        System.out.print("B");
+        
+    }
+    public void methodD(){
+        System.out.print("D");
+    }
 }

@@ -9,6 +9,12 @@ package cse.pkg11.pkgfinal.practice;
  *
  * @author boo13
  */
-public class MyAbstractClass {
-    
+abstract class MyAbstractClass implements MyInterface {
+    @Override
+    public void methodA(){
+        System.out.print("A");
+    }
+    public void methodC(){
+        System.out.print("C");
+    }
 }

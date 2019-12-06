@@ -10,5 +10,6 @@ package cse.pkg11.pkgfinal.practice;
  * @author boo13
  */
 public interface MyInterface {
-    
+    public void methodA();
+    public void methodB();
 }
