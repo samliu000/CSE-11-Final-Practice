@@ -5,6 +5,8 @@
  */
 package cse.pkg11.pkgfinal.practice;
 
+import java.awt.Point;
+
 /**
  *
  * @author boo13
@@ -55,6 +57,21 @@ public class CSE11FinalPractice {
         obj3.methodC();
         //Can't find method obj3.methodD();
         System.out.println();
+        
+        Point p1 = new Point(420,42);
+        Point p2 = new Point(p1);
+        Point p3 = p2;
+        System.out.println(p1 == p2);
+        System.out.println(p1 == p3);
+        System.out.println(p2 == p3);
+        System.out.println(p1.equals(p2));
+        System.out.println(p1.equals(p3));
+        System.out.println(p2.equals(p3));
+        p3.translate(1,1);
+        System.out.println(p1.equals(p2));
+        System.out.println(p1.equals(p3));
+        System.out.println(p2.equals(p3));
+        
     }
     
 }
