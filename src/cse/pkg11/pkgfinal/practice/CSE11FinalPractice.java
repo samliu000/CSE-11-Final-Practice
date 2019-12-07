@@ -74,6 +74,10 @@ public class CSE11FinalPractice {
         Object obj = null;
         obj = new Object();
         System.out.println(obj);
+        Foo newFoo = new Foo();
+        System.out.println(newFoo);
+        Foo newFoo2 = null;
+        System.out.println(newFoo2);
     }
     
 }
