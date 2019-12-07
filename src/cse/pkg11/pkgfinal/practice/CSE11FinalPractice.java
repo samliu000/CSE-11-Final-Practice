@@ -71,7 +71,9 @@ public class CSE11FinalPractice {
         System.out.println(p1.equals(p2));
         System.out.println(p1.equals(p3));
         System.out.println(p2.equals(p3));
-        
+        Object obj = null;
+        obj = new Object();
+        System.out.println(obj);
     }
     
 }

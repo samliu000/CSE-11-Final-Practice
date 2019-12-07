@@ -16,4 +16,10 @@ public class Foo {
     double add(double y, double x){
         return x+y;
     }
+    
+    public static void hi(int i){}
+    public static void hi(double i){}
+    public void hey(double i){}
+    public static <T> int printSize(T var){return 1;}
+    public <T> int printSize(T a, T b){return 1;}
 }
